@@ -1,0 +1,7 @@
+{
+  "name": "errorTest",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
