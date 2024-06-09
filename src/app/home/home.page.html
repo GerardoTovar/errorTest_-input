@@ -10,6 +10,7 @@
   <form [formGroup]="registerForm" class="mt-4">
     <ion-input type="email" label="Email" labelPlacement="floating" errorText="some text" ngModel email ></ion-input>
     <ion-input type="email" label="Email" labelPlacement="floating" [errorText]="EmailError" formControlName="email" ></ion-input>
+    <ion-input type="email" label="Email" labelPlacement="floating" [errorText]="EmailError2" formControlName="email" ></ion-input>
     <ion-input type="email" label="Email" labelPlacement="floating" errorText="some text" formControlName="email" ></ion-input>
   </form>
 </ion-content>
